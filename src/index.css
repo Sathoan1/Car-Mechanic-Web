@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1)) /* #1f2937 */;
+}
+.active hr{
+    @apply block
+}
+
+.background {
+    background: url('/src/assets/header_img.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* object-fit: center; */
+}
+
+::-webkit-scrollbar{
+    @apply hidden
+}
