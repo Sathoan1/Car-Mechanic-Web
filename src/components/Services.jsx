@@ -11,7 +11,7 @@ const Services = () => {
                 <p className='sm:w-1/3 text-center text-sm'>We bring services ranging from - to - , original spare parts and more.</p>
                 <div className='w-full grid md:grid-cols-2  gap-4 pt-5 gap-y-6 px-3 sm:px-0'>
                   {services.slice(0,8).map((item,index)=>(
-                <div onClick={()=>navigate(`/appointment/${item._id}`)} className='w-auto border border-orange-500 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500' key={index}>
+                <div onClick={()=>{navigate(`/service`); scrollTo(0,0)}} className='w-auto border border-orange-500 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500' key={index}>
                     <img className='w-full h-auto object-cover ' src={item.image} alt="" />
                     <div className='p-4'>
                         <p className='text-lg font-medium'>{item.speciality}</p>

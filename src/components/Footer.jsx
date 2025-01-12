@@ -8,7 +8,8 @@ const Footer = () => {
             {/* --------left section------ */}
             <div>
                <img className='w-20 rounded-full h-20 cursor-pointer mb-5' src= {assets.logo} />
-               <p className='w-full md:w-2/3 text-gray-300 leading-6'>Lorem ipsum dolor, sit numquam nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, tenetur aut! Dolore magnam, eum harum optio aut iure!</p>
+               <p className='w-full md:w-2/3 text-gray-300 leading-6'> <b className='text-orange-500'>Stay Connected! </b>
+               We’re here to keep your car running and your mind at ease. Contact us today for reliable service you can trust.</p>
             </div>
             {/* --------center section------ */}
             <div>
@@ -32,7 +33,7 @@ const Footer = () => {
         {/* ------------------copyright text------ */}
         <div>
             <hr />
-            <p className='py-5 text-sm text-center'>Copyright 2024 @fixes</p>
+            <p className='py-5 text-sm text-center text-orange-500'>© Fixes, 2025. All Rights Reserved</p>
         </div>
     </div>
   )
