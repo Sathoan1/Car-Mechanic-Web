@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
             {/* --------left section------ */}
             <div>
-               <img className='w-20 rounded-full h-20 cursor-pointer mb-5' src= {assets.logo} />
+               <img className='w-10 h-10 rounded-full sm:w-20 sm:h-20 cursor-pointer mb-5' src= {assets.logo} />
                <p className='w-full md:w-2/3 text-gray-300 leading-6'> <b className='text-orange-500'>Stay Connected! </b>
                We’re here to keep your car running and your mind at ease. Contact us today for reliable service you can trust.</p>
             </div>

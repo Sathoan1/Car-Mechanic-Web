@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { assets } from '../assets/assets_frontend/assets'
 import { NavLink, useNavigate } from 'react-router-dom'
+// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 const Navbar = () => {
 
@@ -11,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-white'>
-        <img onClick={()=>navigate('/')} className='w-10 rounded-full sm:w-20 h-20 cursor-pointer' src={assets.logo} alt="" />
+        <img onClick={()=>navigate('/')} className='w-10 h-10 rounded-full sm:w-20 sm:h-20 cursor-pointer' src={assets.logo} alt="" />
         <ul className='hidden md:flex items-start gap-5 font-medium '>
             <NavLink to='/'>
                 <li className='py-1 text-white'>HOME</li>
@@ -52,10 +53,11 @@ const Navbar = () => {
             }
 
             <img onClick={()=>setShowMenu(true)} className='w-6 md:hidden' src={assets.menu_icon} alt="" />
+            {/* <FontAwesomeIcon icon="fa-solid fa-bars" size="xs" style={{color: "#fd9330",}} /> */}
             {/* mobile menu */}
             <div className={`${showMenu ? 'fixed w-full' : 'h-0 w-0'} md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden text-white transition-all`}>
                 <div className='flex items-center justify-between px-5 py-6'>
-                    <img className='w-10 rounded-full sm:w-20 h-20 cursor-pointer' src={assets.logo} alt="" />
+                    <img className='w-10 h-10 rounded-full sm:w-20 sm:h-20 cursor-pointer' src={assets.logo} alt="" />
                     <img className='w-7' onClick={()=>setShowMenu(false)} src={assets.cross_icon} alt="" />
                 </div>
                 <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>

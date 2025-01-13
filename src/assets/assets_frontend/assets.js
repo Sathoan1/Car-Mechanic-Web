@@ -23,10 +23,8 @@ import engr7 from './engr11-removebg-preview.png'
 import engr8 from './engr8.png'
 import engr9 from './engr9.png'
 import s_eng4 from './s_engr4.png'
-import s_eng4b from './s_engr4(B).png'
-import s_eng4c from './s_engr4(C).png'
 import s_eng1 from './s_engr1-removebg-preview.png'
-import serv_e1 from './serv_img8.png'
+import serv_1 from './serv_img17.png'
 import serv_e2 from './serv_img4.png'
 import serv_e3 from './serv_img9.png'
 import servimg4 from './serv_img8.png'
@@ -200,37 +198,23 @@ export const engineers = [
 export const services = [
     {
         _id: 'serv1',
-        name: 'Engr. Jane Doe',
-        image: [s_eng4, s_eng4b, s_eng4c],
+        image: servimg6,
         speciality: 'Tire Services and Alignment',
-        experience: '5 Years',
-        
-        fees: 50
     },
     {
         _id: 'serv2',
-        name: 'Engr. Emeka Okoro',
-        image: [serv_e1, engr8],
+        image: engr8,
         speciality: 'Engine Diagnostics and Repairs',
-        experience: '5 Years',
-        about: 'Emeka has 12 years of experience in diagnosing and repairing engine issues, ranging from minor faults to major overhauls. Certified in advanced engine technologies, he is dedicated to ensuring each engine operates at peak efficiency. Emeka’s expertise and transparency build trust with customers, tackling one of the biggest challenges in the industry.',
     },
     {
         _id: 'serv3',
-        name: 'Engr. Ahmed Yusuf',
         image: serv_e2,
         speciality: 'Oil Changes and Lubrication Services',
-        experience: '5 Years',
-       
-        fees: 50
     },
     {
         _id: 'serv4',
-        name: 'Engr. Samuel Adeyemi',
         image: serv_e3,
         speciality: 'Vehicle Diagnostics and Electrical Systems',
-        experience: '5 Years',
-        fees: 50
     },
     {
         _id: 'serv5',
@@ -244,8 +228,9 @@ export const services = [
     },
     {
         _id: 'serv7',
-        speciality: 'Tire Services and Alignment',
-        image: servimg6
+        speciality: 'Vehicle Diagnostics and Electrical Systems',
+        image: servimg7
+
     },
     {
         _id: 'serv8',
@@ -254,8 +239,9 @@ export const services = [
     },
     {
         _id: 'serv9',
-        speciality: 'Vehicle Diagnostics and Electrical Systems',
-        image: servimg7
+        speciality: 'Tire Services and Alignment',
+        image: serv_1,
+
     },
     {
         _id: 'serv10',
